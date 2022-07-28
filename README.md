@@ -16,16 +16,16 @@
 
 <p>@Override </p>
 <p>public void addView(View arg0, android.view.ViewGroup.LayoutParams arg1) {</p>
-<p>   // pass</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// pass</p>
 <p>}</p>
 而实际的WindowManagerImpl.java中addView方法如下：
 <p>
-@Override
-public void addView(@NonNull View view, @NonNull ViewGroup.LayoutParams params) {
-    applyTokens(params);
-    mGlobal.addView(view, params, mContext.getDisplayNoVerify(), mParentWindow,
-    mContext.getUserId());
-}
+<p>@Override</p>
+<p>public void addView(@NonNull View view, @NonNull ViewGroup.LayoutParams params) {</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;applyTokens(params);</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mGlobal.addView(view, params, mContext.getDisplayNoVerify(), mParentWindow,</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mContext.getUserId());</p>
+<p>}</p>
    
 同样的还是DexClassLoader等等。sources中代码并不是android中真正执行的代码，而仅仅只是一个参考。
 
