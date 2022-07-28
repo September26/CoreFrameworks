@@ -13,17 +13,20 @@
 ## 详细介绍
 研究frameworks层的源码，如果只看Android/sdk/sources下的源码，你会发现是远远不够的。
 比如你会发现WindowManagerImpl.java的addView方法如下：
-@Override
-public void addView(View arg0, android.view.ViewGroup.LayoutParams arg1) {
-    // pass
-}
+
+<p>@Override </p>
+<p>public void addView(View arg0, android.view.ViewGroup.LayoutParams arg1) {</p>
+<p>   // pass</p>
+<p>}</p>
 而实际的WindowManagerImpl.java中addView方法如下：
+<p>
 @Override
 public void addView(@NonNull View view, @NonNull ViewGroup.LayoutParams params) {
     applyTokens(params);
     mGlobal.addView(view, params, mContext.getDisplayNoVerify(), mParentWindow,
     mContext.getUserId());
 }
+   
 同样的还是DexClassLoader等等。sources中代码并不是android中真正执行的代码，而仅仅只是一个参考。
 
 另外，诸如surfaceFlinger.cpp，DexClassLoader.java等代码，其实并不是base这个项目中，而是在native，libcore这些项目中，所以并不能只同步base这一个项目。
