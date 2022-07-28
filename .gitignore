@@ -1,6 +1,6 @@
 .DS_Store
 .idea
-base/
-core/
-libcore/
-native/
+#base/
+#core/
+#libcore/
+#native/

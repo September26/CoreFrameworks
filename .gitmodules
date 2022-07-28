@@ -4,3 +4,15 @@
 [submodule "multidex"]
 	path = multidex
 	url = https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/multidex
+[submodule "base"]
+	path = base
+	url = https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/base
+[submodule "native"]
+	path = native
+	url = https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/native
+[submodule "libcore"]
+	path = libcore
+	url = https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/libcore
+[submodule "core"]
+	path = core
+	url = https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/system/core
