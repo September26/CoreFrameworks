@@ -38,12 +38,12 @@ system/core:主要是安卓第一个进程：init进程相关的内容。
 
 ## 备注
 几个子项目使用了如下的仓库镜像来源，如果对应的子仓库有更新，欢迎提交PR进行同步。
-git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/base
-git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/native
-git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/multidex
-git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/libcore
-git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/art
-git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/system/core
+   git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/base
+   git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/native
+   git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/multidex
+   git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/libcore
+   git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/art
+   git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/system/core
 
 对应AOSP的仓库地址，相关的仓库地址来源于：https://android.googlesource.com/
 git clone https://android.googlesource.com/platform/frameworks/base
