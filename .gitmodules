@@ -1,0 +1,6 @@
+[submodule "art"]
+	path = art
+	url = https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/art
+[submodule "multidex"]
+	path = multidex
+	url = https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/multidex
