@@ -61,6 +61,7 @@
 * git clone https://android.googlesource.com/platform/art
 * git clone https://android.googlesource.com/platform/system/core
 
+## 后续改进
 后续希望能够改成clone了一个主项目，6个子项目也都存在，并且可以单独提交更新的那种方式。
 如果谁有这方面的经验，欢迎指教。
 
