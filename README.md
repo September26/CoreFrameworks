@@ -31,12 +31,12 @@
 
 另外，诸如surfaceFlinger.cpp，DexClassLoader.java等代码，其实并不是base这个项目中，而是在native，libcore这些项目中，所以并不能只同步base这一个项目。
 具体项目对应的关系如下：
-frameworks/base:app的核心库，APP进程中使用到的所有java类和native类，SystemServer进程（AMS，WMS就属于这个进程）中使用到的所有java类和native类，以及SurfaceFlinger进程中用到的java类，都在这个项目中。
-frameworks/native:SurfaceFlinger进程中用到的native类,底层服务（诸如蓝牙，电源管理，USB连接等等）的native实现类，都在这个项目中。
-frameworks/multidex:顾名思义，主要是关于multidex的类。
-libcore:主要包含DexClassLoader等ClassLoader类，JSON类，VMRuntime类等等。
-art:ART虚拟机的实现，odex的优化实现等等。
-system/core:主要是安卓第一个进程：init进程相关的内容。
+* frameworks/base:app的核心库，APP进程中使用到的所有java类和native类，SystemServer进程（AMS，WMS就属于这个进程）中使用到的所有java类和native类，以及SurfaceFlinger进程中用到的java类，都在这个项目中。
+* frameworks/native:SurfaceFlinger进程中用到的native类,底层服务（诸如蓝牙，电源管理，USB连接等等）的native实现类，都在这个项目中。
+* frameworks/multidex:顾名思义，主要是关于multidex的类。
+* libcore:主要包含DexClassLoader等ClassLoader类，JSON类，VMRuntime类等等。
+* art:ART虚拟机的实现，odex的优化实现等等。
+* system/core:主要是安卓第一个进程：init进程相关的内容。
 
 
 ## 备注
