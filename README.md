@@ -45,7 +45,7 @@
 
 
 ## 备注
-几个子项目使用了如下的仓库镜像来源，如果对应的子仓库有更新，欢迎提交PR进行同步。
+目前使用的是submodule的方式进行更新的，几个子项目使用了如下的仓库镜像来源。
 * git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/base
 * git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/native
 * git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/multidex
@@ -60,4 +60,8 @@
 * git clone https://android.googlesource.com/platform/libcore
 * git clone https://android.googlesource.com/platform/art
 * git clone https://android.googlesource.com/platform/system/core
+
+后续希望能够改成clone了一个主项目，6个子项目也都存在，并且可以单独提交更新的那种方式。
+如果谁有这方面的经验，欢迎指教。
+
 
