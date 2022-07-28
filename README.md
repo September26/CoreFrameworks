@@ -2,12 +2,12 @@
 原有的AOSP项目中包含了几百个项目，总量在190G左右，但是大多数对APP开发者来说是无用。
 所以本项目只同步了AOSP中几个对APP开发者来说最重要的核心项目（8个G左右），方便开发者查阅源码。
 包含以下几个库：
-frameworks/base
-frameworks/native
-frameworks/multidex
-libcore
-art
-system/core
+* frameworks/base
+* frameworks/native
+* frameworks/multidex
+* libcore
+* art
+* system/core
 
 
 ## 详细介绍
@@ -38,20 +38,18 @@ system/core:主要是安卓第一个进程：init进程相关的内容。
 
 ## 备注
 几个子项目使用了如下的仓库镜像来源，如果对应的子仓库有更新，欢迎提交PR进行同步。
-   git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/base
-   git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/native
-   git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/multidex
-   git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/libcore
-   git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/art
-   git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/system/core
+* git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/base
+* git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/native
+* git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/frameworks/multidex
+* git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/libcore
+* git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/art
+* git clone https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/system/core
 
 对应AOSP的仓库地址，相关的仓库地址来源于：https://android.googlesource.com/
-git clone https://android.googlesource.com/platform/frameworks/base
-git clone https://android.googlesource.com/platform/frameworks/native
-git clone https://android.googlesource.com/platform/frameworks/multidex
-git clone https://android.googlesource.com/platform/libcore
-git clone https://android.googlesource.com/platform/art
-git clone https://android.googlesource.com/platform/system/core
+* git clone https://android.googlesource.com/platform/frameworks/base
+* git clone https://android.googlesource.com/platform/frameworks/native
+* git clone https://android.googlesource.com/platform/frameworks/multidex
+* git clone https://android.googlesource.com/platform/libcore
+* git clone https://android.googlesource.com/platform/art
+* git clone https://android.googlesource.com/platform/system/core
 
-
-git submodule add ~/git/libs/lib1.git libs/lib1
